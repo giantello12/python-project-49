@@ -6,6 +6,15 @@ def generate_number():
     return random.randint(1, 100)
 
 
+def find_gcd(num1, num2):
+    max = num1 if num1 > num2 else num2
+    gcd = 1
+    for i in range(1, max + 1):
+        if num1 % i == 0 and num2 % i == 0:
+            gcd = i
+    return gcd
+
+
 def greeting():
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
