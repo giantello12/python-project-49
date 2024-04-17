@@ -6,6 +6,23 @@ def generate_number():
     return random.randint(1, 100)
 
 
+def make_progression():
+    arg = ''
+    num = random.randint(0, 100)
+    step = random.randint(1, 10)
+    rand_index = random.randint(0, 9)
+    size_of_progression = 10
+    for i in range(size_of_progression):
+        if i != rand_index:
+            arg += str(num) + ' '
+        else:
+            arg += '.. '
+            cor_answ = num
+        num += step
+    print_question(arg)
+    return str(cor_answ)
+
+
 def find_gcd(num1, num2):
     max = num1 if num1 > num2 else num2
     gcd = 1
