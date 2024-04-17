@@ -11,7 +11,7 @@ def is_correct(answer, result):
 
 def main():
     name = brain_games.engine.greeting()
-    print('Find the greatest common divisor of given numbers')
+    print('Find the greatest common divisor of given numbers.')
     attempts = 3
     for _ in range(attempts):
         num1 = brain_games.engine.generate_number()
