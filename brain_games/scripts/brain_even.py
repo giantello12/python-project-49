@@ -12,7 +12,7 @@ def is_correct(answer: str, num: int) -> bool:
 def main():
     name = brain_games.engine.greeting()
     attempts = 3
-    print('Answer "yes" if number is even, otherwise answer "no"')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
     for _ in range(attempts):
         num = brain_games.engine.generate_number()
