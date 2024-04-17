@@ -31,7 +31,7 @@ def main():
             brain_games.engine.print_if_wrong_answer(answer, name, cor_answer)
             break
     else:
-        print('Congratulations!')
+        print(f'Congratulations, {name}!')
 
 
 if __name__ == "__main__":
