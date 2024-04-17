@@ -14,3 +14,6 @@
 
 <h2>brain-progression asciinema</h2>
 <a href="https://asciinema.org/a/Y969PUBq372msQCCQolnJOtFK" target="_blank"><img src="https://asciinema.org/a/Y969PUBq372msQCCQolnJOtFK.svg" /></a>
+
+<h2>brain-prime asiinema</h2>
+<a href="https://asciinema.org/a/AiKhVIN1qZ71Nk2W4lsptxRps" target="_blank"><img src="https://asciinema.org/a/AiKhVIN1qZ71Nk2W4lsptxRps.svg" /></a>
